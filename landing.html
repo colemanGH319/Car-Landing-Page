@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="menu">
+          <img id="header-img" src="https://cdn.dribbble.com/users/342845/screenshots/1094946/logo-car-line.jpg" alt="Company Logo">
+          <ul>
+            <li class="nav-link"><a href="#vehicles">Vehicles</a></li>
+            <li class="nav-link"><a href="#pricing">Pricing</a></li>
+            <li class="nav-link"><a href="#locations">Locations</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1 id="title">The All-New Q60 Has Arrived.</h1><br>
+      <section id="how-it-works">
+        <iframe id="video" width="901" height="507" src="https://www.youtube.com/embed/XL0eugao_Oc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <br><br>
+      <form class="" id="survey-form" action="" method="post">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email" id="email-label">Enter your email:</label>
+        <input type="email" id="email" name="email" value="" placeholder="Email Address" required>
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" min="18" max="99" placeholder="Age"><br><br>
+        <label for="newused" id="type-label">Seeking New or Used Car?</label>
+        <select class="newused" id="dropdown" name="newused">
+          <option value="new">New</option>
+          <option value="used">Used</option>
+        </select>
+        <label for="seats">How many seats?</label>
+        <input type="radio" id="seats" name="seat-number" value="2">2
+        <input type="radio" id="seats" name="seat-number" value="4">4
+        <br><br>
+        <label for="checkbox">Which one of these checkboxes do you like? (Select all that apply)</label>
+        <input type="checkbox" name="checkbox" id="checkbox" value="1">This one
+        <input type="checkbox" name="checkbox" id="checkbox" value="2">This one
+        <input type="checkbox" name="checkbox" id="checkbox" value="3">This one
+        <br><br>
+        <label for="comments">Any additional comments?</label><br>
+        <textarea name="comments" id="comments" rows="8" cols="80" placeholder="Enter your comments here"></textarea>
+        <br><br>
+        <input type="submit" id="submit" value="Sign Up">
+      </form>
+      <br>
+
+
+        <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing">
+
+          <div id="economy">
+            <div class="level">
+              Pure
+            </div>
+            <h2>$41,950</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div id="compact">
+            <div class="level">
+              Luxe
+            </div>
+            <h2>$44,300</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div id="full-size">
+            <div class="level">
+              Sport
+            </div>
+            <h2>$54,000</h2>
+            <ol>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          </div>
+        </section>
+
+    </div>
+  </body>
+</html>
